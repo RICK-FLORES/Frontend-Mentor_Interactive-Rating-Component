@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+html {
+  font-size: 15px;
+  font-family: Overpass sans-serif;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +18,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #171717;
+  background-color: #0d0d0d;
   height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -30,9 +35,9 @@ body {
           flex-direction: column;
   margin: 0 1.5rem 3rem 1.5rem;
   padding: 3rem;
-  max-width: 500px;
+  max-width: 450px;
   color: white;
-  background-color: #2e2e38;
+  background-color: #121417;
   -ms-flex-item-align: center;
       align-self: center;
   border-radius: 1rem;
@@ -48,7 +53,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #3d3d43;
+  background-color: #252d37;
   border-radius: 50%;
   padding: .5rem;
   width: 3rem;
@@ -57,7 +62,7 @@ body {
 }
 
 .star i {
-  color: #ff7733;
+  color: #fb7413;
 }
 
 .btn {
@@ -75,29 +80,29 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   border-radius: 10rem;
-  background-color: #ff7733;
+  background-color: #fb7413;
   color: white;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: .15rem;
 }
 
 .submit-btn:hover {
   background-color: white;
-  color: #ff7733;
+  color: #fb7413;
 }
 
 .rating-btn {
-  color: #a6a6a6;
+  color: #959eac;
   border-radius: 50%;
-  background-color: #3d3d43;
+  background-color: #252d37;
   width: 3rem;
   height: 3rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .rating-btn:hover {
-  background-color: #ff7733;
+  background-color: #fb7413;
   color: white;
 }
 
@@ -105,7 +110,7 @@ body {
   display: none;
 }
 
-.rating h2 {
+.rating h1 {
   margin-bottom: .5rem;
 }
 
@@ -121,14 +126,14 @@ body {
 }
 
 .rating ul .selected {
-  background-color: #a6a6a6;
+  background-color: #7c8798;
   color: white;
 }
 
 .rating p {
   line-height: 1.5;
   margin-bottom: 2rem;
-  color: #a6a6a6;
+  color: #959eac;
 }
 
 .thank-you {
@@ -139,13 +144,14 @@ body {
   width: 100%;
 }
 
-.thank-you h2 {
+.thank-you h1 {
   margin-bottom: 1rem;
+  color: white;
 }
 
 .thank-you p {
   line-height: 1.5;
-  color: #a6a6a6;
+  color: #959eac;
 }
 
 .thank-you .img-container {
@@ -158,11 +164,11 @@ body {
   width: 60%;
   padding: .3rem;
   margin-bottom: 2.5rem;
-  background-color: #3d3d43;
+  background-color: #252d37;
   border-radius: 10rem;
 }
 
 .thank-you .user-selection p {
-  color: #ff7733;
+  color: #fb7413;
 }
 /*# sourceMappingURL=styles.css.map */

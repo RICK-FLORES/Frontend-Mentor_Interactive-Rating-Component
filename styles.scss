@@ -1,13 +1,35 @@
+// VARIABLES
+
+//colors
+$orange: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$lt-grey: hsl(217, 12%, 63%);
+$md-grey: hsl(216, 12%, 54%);
+$drk-blue: hsl(213, 19%, 18%);
+$v-drk-blue: hsl(216, 12% ,8%);
+
+//typography
+$font-sz: 15px;
+$font-fam: Overpass sans-serif;
+$font-wt-400: 400;
+$font-wt-700: 700;
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  font-size: $font-sz;
+  font-family: $font-fam;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 9%);
+  background-color: hsl(0, 0%, 5%);
   height: 100vh;
   justify-content: center;
 }
@@ -17,9 +39,9 @@ body {
   flex-direction: column;
   margin: 0 1.5rem 3rem 1.5rem;
   padding: 3rem;
-  max-width: 500px;
-  color: hsl(155, 100%, 100%);
-  background-color: hsl(240, 10%, 20%);
+  max-width: 450px;
+  color: $white;
+  background-color: $v-drk-blue;
   align-self: center;
   border-radius: 1rem;
 }
@@ -28,15 +50,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsl(240, 5%, 25%);
-  // box-shadow: 2px 3px 3px black;
+  background-color: $drk-blue;
   border-radius: 50%;
   padding: .5rem;
   width: 3rem;
   height: 3rem;
   margin-bottom: 2rem;
   i {
-    color: hsl(20, 100%, 60%);
+    color: $orange;
   }
 }
 
@@ -52,36 +73,37 @@ body {
   padding: 1rem;
   align-self: center;
   border-radius: 10rem;
-  background-color: hsl(20, 100%, 60%);
-  color: hsl(155, 100%, 100%);
+  background-color: $orange;
+  color: $white;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: $font-wt-700;
   letter-spacing: .15rem;
 }
 
 .submit-btn:hover {
-  background-color: hsl(155, 100%, 100%);
-  color: hsl(20, 100%, 60%);
+  background-color: $white;
+  color: $orange;
 }
 
 .rating-btn {
-  color: hsl(0, 0%, 65%);
+  color: $lt-grey;
   border-radius: 50%;
-  background-color: hsl(240, 5%, 25%);
+  background-color: $drk-blue;
   width: 3rem;
   height: 3rem;
-  font-weight: bold;
+  font-weight: $font-wt-400;
 }
 
 .rating-btn:hover {
-  background-color: hsl(20, 100%, 60%);
-  color: hsl(155, 100%, 100%);
+  background-color: $orange;
+  color: $white;
 }
 
 
 .rating {
   display: none;
-  h2 {
+
+  h1 {
     margin-bottom: .5rem
   }
 
@@ -90,45 +112,53 @@ body {
     list-style: none;
     justify-content: space-between;
     margin-bottom: 2rem;
+
     .selected {
-      background-color: hsl(0, 0%, 65%);
-      color: hsl(155, 100%, 100%);
+      background-color: $md-grey;
+      color: $white;
     }
   }
   
   p {
     line-height: 1.5;
     margin-bottom: 2rem;
-    color: hsl(0, 0%, 65%);
+    color: $lt-grey;
   }
 }
 
 .thank-you {
   // display: none;
   text-align: center;
+
   img {
     width: 100%;
   }
-  h2 {
+
+  h1 {
     margin-bottom: 1rem;
+    color: $white;
   }
+
   p {
     line-height: 1.5;
-    color: hsl(0, 0%, 65%);
+    color: $lt-grey;
   }
+
   .img-container {
     margin: 0 auto 2rem auto;
     width: 50%;
   }
+
   .user-selection {
     margin: 0 auto;
     width: 60%;
     padding: .3rem;
     margin-bottom: 2.5rem;
-    background-color: hsl(240, 5%, 25%);
+    background-color: $drk-blue;
     border-radius: 10rem;
+
     p {
-      color: hsl(20, 100%, 60%);
+      color: $orange;
     }
   }
 }
