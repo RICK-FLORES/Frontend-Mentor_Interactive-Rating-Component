@@ -14,9 +14,11 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshots
-
+Initial State
 ![](./images/solution-images/solution-03.png)
+Hover State
 ![](./images/solution-images/solution-01.png)
+Thank-You State
 ![](./images/solution-images/solution-02.png)
 
 ### Links
@@ -120,9 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Some of the things I would like to continue working on is trying to add some animations and transitions to make for a better user experience.
 
 ### Useful resources
 
