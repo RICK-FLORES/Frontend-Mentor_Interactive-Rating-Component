@@ -13,7 +13,7 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
+### Screenshots
 
 ![](./images/solution-images/solution-03.png)
 ![](./images/solution-images/solution-01.png)
@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View my solution](https://www.frontendmentor.io/solutions/interactive-rating-component-using-scss-variablesnesting-and-flexbox-HkK4qPK8c)
-- Live Site URL: [View Live](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
+- Live Site URL: [View live example](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
 
 ## My process
 
@@ -39,6 +39,7 @@ Users should be able to:
 
 Using Sass to style this rating component made it very easy by utilizing Sass variables and nesting.
 
+Here is an example of scss variables:
 ```scss
 // VARIABLES
 
@@ -54,7 +55,7 @@ $v-drk-blue: hsl(216, 12%, 8%);
 $font-sz: 15px;
 $font-fam: Overpass sans-serif;
 ```
-
+Here is an example of scss nesting:
 ```scss
 .rating {
 	h1 {
