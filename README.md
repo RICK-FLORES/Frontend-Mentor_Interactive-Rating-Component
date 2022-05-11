@@ -14,11 +14,16 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshots
-Initial State\n
+Initial State
+
 ![](./images/solution-images/solution-03.png)
-Hover State\n
+
+Hover State
+
 ![](./images/solution-images/solution-01.png)
-Thank-You State\n
+
+Thank-You State
+
 ![](./images/solution-images/solution-02.png)
 
 ### Links
