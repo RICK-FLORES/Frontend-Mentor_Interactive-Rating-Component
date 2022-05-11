@@ -8,6 +8,7 @@
 html {
   font-size: 15px;
   font-family: Overpass sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -89,6 +90,7 @@ body {
 
 .submit-btn:hover {
   background-color: white;
+  font-weight: 700;
   color: #fb7413;
 }
 
@@ -98,7 +100,7 @@ body {
   background-color: #252d37;
   width: 3rem;
   height: 3rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .rating-btn:hover {
