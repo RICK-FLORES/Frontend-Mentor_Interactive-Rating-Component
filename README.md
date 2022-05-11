@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [View](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
+- Solution URL: [View my solution](https://www.frontendmentor.io/solutions/interactive-rating-component-using-scss-variablesnesting-and-flexbox-HkK4qPK8c)
+- Live Site URL: [View Live](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
 
 ## My process
 

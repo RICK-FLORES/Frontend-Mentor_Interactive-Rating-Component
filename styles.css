@@ -160,7 +160,7 @@ body {
 
 .thank-you .user-selection {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
   padding: .3rem;
   margin-bottom: 2.5rem;
   background-color: #252d37;
@@ -169,5 +169,6 @@ body {
 
 .thank-you .user-selection p {
   color: #fb7413;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

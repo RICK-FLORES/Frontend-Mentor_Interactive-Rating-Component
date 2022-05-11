@@ -156,7 +156,7 @@ body {
 
   .user-selection {
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
     padding: .3rem;
     margin-bottom: 2.5rem;
     background-color: $drk-blue;
@@ -164,6 +164,7 @@ body {
 
     p {
       color: $orange;
+      width: 100%;
     }
   }
 }
