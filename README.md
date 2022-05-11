@@ -14,11 +14,11 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshots
-Initial State
+Initial State\n
 ![](./images/solution-images/solution-03.png)
-Hover State
+Hover State\n
 ![](./images/solution-images/solution-01.png)
-Thank-You State
+Thank-You State\n
 ![](./images/solution-images/solution-02.png)
 
 ### Links
@@ -94,27 +94,27 @@ const ratingOptions = document.getElementById('rating-options')
 const ratingSelection = document.getElementById('rating-selection')
 
 document.addEventListener('DOMContentLoaded', () => {
-let selection
+	let selection
 
-ratingOptions.addEventListener('click', (e) => {
-	const ratingBtn = e.target
-	selection = e.target.id
-	ratingOptions.childNodes.forEach((child, index) => {
-		if (index % 2) {
-			if (child.firstChild !== ratingBtn) {
-				child.firstChild.classList.remove('selected')
+	ratingOptions.addEventListener('click', (e) => {
+		const ratingBtn = e.target
+		selection = e.target.id
+		ratingOptions.childNodes.forEach((child, index) => {
+			if (index % 2) {
+				if (child.firstChild !== ratingBtn) {
+					child.firstChild.classList.remove('selected')
+				}
 			}
-		}
-		ratingBtn.classList.add('selected')
+			ratingBtn.classList.add('selected')
+		})
+		return selection
 	})
-	return selection
-})
 
-submitBtn.addEventListener('click', (e) => {
-	ratingState.style.display = 'none'
-	thankYouState.style.display = 'block'
-	ratingSelection.innerText = `${selection}`
-})
+	submitBtn.addEventListener('click', (e) => {
+		ratingState.style.display = 'none'
+		thankYouState.style.display = 'block'
+		ratingSelection.innerText = `${selection}`
+	})
 })
 ```
 
