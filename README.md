@@ -135,3 +135,4 @@ Some of the things I would like to continue working on is trying to add some ani
 
 - Frontend Mentor - [@RICK-FLORES](https://www.frontendmentor.io/profile/RICK-FLORES)
 - Twitter - [@RICK_FLORES_DEV](https://www.twitter.com/RICK_FLORES_DEV)
+- LinkedIn - [Rick Flores](https://www.linkedin.com/in/rick-flores-dev/)
