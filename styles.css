@@ -106,10 +106,6 @@ body {
   color: white;
 }
 
-.rating {
-  display: none;
-}
-
 .rating h1 {
   margin-bottom: .5rem;
 }
@@ -137,6 +133,7 @@ body {
 }
 
 .thank-you {
+  display: none;
   text-align: center;
 }
 
