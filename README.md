@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
+- Live Site URL: [View](https://rick-flores.github.io/Frontend-Mentor_Interactive-Rating-Component/)
 
 ## My process
 
